@@ -1,8 +1,18 @@
 {
-
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["next/core-web-vitals"],
   "rules": {
     "@typescript-eslint/no-unused-vars": "warn",
-    "@typescript-eslint/ban-ts-comment": "warn",
-    "@next/next/no-page-custom-font": "off"
+    "react/react-in-jsx-scope": "off"
   }
 }
