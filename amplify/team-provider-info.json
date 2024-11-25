@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-diswatch-dev-2c22e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::180294221200:role/amplify-diswatch-dev-2c22e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::180294221200:role/amplify-diswatch-dev-2c22e-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-diswatch-dev-2c22e-deployment",
+      "UnauthRoleName": "amplify-diswatch-dev-2c22e-unauthRole",
+      "StackName": "amplify-diswatch-dev-2c22e",
+      "StackId": "arn:aws:cloudformation:us-east-2:180294221200:stack/amplify-diswatch-dev-2c22e/329a3ca0-aa4c-11ef-aecf-0a47ae9a00e5",
+      "AmplifyAppId": "ddfl5yy4qmkcn"
+    },
+    "categories": {
+      "auth": {
+        "diswatchd9ec56ed": {}
+      },
+      "api": {
+        "diswatch": {}
+      }
+    }
+  }
+}

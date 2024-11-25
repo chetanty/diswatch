@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "diswatch",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authdiswatchd9ec56ed",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
