@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  reactStrictMode: true,
+  output: "standalone", // Ensure all required files are bundled for deployment
 };
-
 export default nextConfig;
